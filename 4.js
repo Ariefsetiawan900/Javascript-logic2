@@ -1,4 +1,4 @@
-// Aplikasi Perpustakaan
+// library application
 
 const library = [
   { title: "A", author: "1", status: true },
