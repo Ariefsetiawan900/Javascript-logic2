@@ -25,6 +25,6 @@ const Person = [
   
   const updatePratama = updatePerson.find(i => i.name == "Pratama");
   updatePratama.city = "Jogja";
-  updatePratama.city = "Arkademy";
+  updatePratama.company = "Arkademy";
   
   console.log(updatePerson);
