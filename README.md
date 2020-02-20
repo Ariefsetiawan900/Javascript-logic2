@@ -3,8 +3,8 @@
 <br>
 <h3>1st-answer</h3>
 <p>Edit object in array using <i>spread operator</i>.</p>
-<h3>2nd-answer.<h3>
-<p>About Printer machine.</p>
+<h3>2nd-answer.</h3>
+<p>About <i>Printer machine.</i></p>
 <h3>3rd-answer</h3>
 <p>Find <i>Mean, Median, and Modus</i> of lined up random numbers in array.</p>
 <h3>4th-answer</h3>
