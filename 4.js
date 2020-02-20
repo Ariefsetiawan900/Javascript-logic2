@@ -1,12 +1,12 @@
-//Aplication library
 const library = [
-  { title: "A", author: "1", status: true },
-  { title: "B", author: "1", status: false },
-  { title: "C", author: "2", status: true }
+  { title: "A", author: "ONE", status: false },
+  { title: "B", author: "TWO", status: true },
+  { title: "C", author: "THREE", status: false }
 ];
 
-function findBookStatus(title) {
-  let book = library.find(book => book.title == title);
+// Soal A
+function findBookStatus(bookTitle) {
+  let book = library.find(book => book.title == bookTitle);
   if (book.status == true) {
     return console.log("Book of " + book.title + " is AVAILABLE");
   } else {
@@ -14,11 +14,12 @@ function findBookStatus(title) {
   }
 }
 
-findBookStatus("B");
+findBookStatus("A");
 
-function findBooksAvailability(status) {
+// Soal B
+function findBooksAvailability(boolean) {
   for (const props of library) {
-    if (props.status == status) console.log(props);
+    if (props.status == boolean) console.log(props);
   }
 }
 
