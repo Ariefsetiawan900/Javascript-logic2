@@ -4,7 +4,7 @@ const library = [
   { title: "C", author: "THREE", status: false }
 ];
 
-// Soal A
+// Question A
 function findBookStatus(bookTitle) {
   let book = library.find(book => book.title == bookTitle);
   if (book.status == true) {
@@ -16,7 +16,7 @@ function findBookStatus(bookTitle) {
 
 findBookStatus("A");
 
-// Soal B
+// Question B
 function findBooksAvailability(boolean) {
   for (const props of library) {
     if (props.status == boolean) console.log(props);
